@@ -1,7 +1,7 @@
 ﻿Imports System.Linq.Expressions
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
-Public Class Form1
+Public Class Calc
     Private Sub btn1_Click(sender As Object, e As EventArgs) Handles btn1.Click
         result.Text = result.Text + "1"
 

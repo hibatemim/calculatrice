@@ -1,35 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\21696\\source\\repos\\Calculatrice\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{52C03FEA-CC87-4393-BEC4-53FB4A569ECE}|calculatorr\\calculatorr.vbproj|c:\\users\\21696\\onedrive\\bureau\\calculator\\calculatrice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "calculatrice.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\21696\\OneDrive\\Bureau\\calculator\\calculatrice.vb",
-              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Bureau\\calculator\\calculatrice.vb",
-              "ToolTip": "C:\\Users\\21696\\OneDrive\\Bureau\\calculator\\calculatrice.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\OneDrive\\Bureau\\calculator\\calculatrice.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-31T14:31:11.056Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
