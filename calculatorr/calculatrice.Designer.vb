@@ -32,7 +32,7 @@ Partial Class Form1
         Me.btn9 = New System.Windows.Forms.Button()
         Me.btn8 = New System.Windows.Forms.Button()
         Me.btn7 = New System.Windows.Forms.Button()
-        Me.btn00 = New System.Windows.Forms.Button()
+        Me.btno = New System.Windows.Forms.Button()
         Me.btn0 = New System.Windows.Forms.Button()
         Me.btnp = New System.Windows.Forms.Button()
         Me.btnminus = New System.Windows.Forms.Button()
@@ -50,6 +50,7 @@ Partial Class Form1
         Me.result.Location = New System.Drawing.Point(59, 39)
         Me.result.Multiline = True
         Me.result.Name = "result"
+        Me.result.ReadOnly = True
         Me.result.Size = New System.Drawing.Size(418, 54)
         Me.result.TabIndex = 0
         '
@@ -143,15 +144,15 @@ Partial Class Form1
         Me.btn7.Text = "7"
         Me.btn7.UseVisualStyleBackColor = True
         '
-        'btn00
+        'btno
         '
-        Me.btn00.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte), True)
-        Me.btn00.Location = New System.Drawing.Point(206, 313)
-        Me.btn00.Name = "btn00"
-        Me.btn00.Size = New System.Drawing.Size(62, 46)
-        Me.btn00.TabIndex = 12
-        Me.btn00.Text = "00"
-        Me.btn00.UseVisualStyleBackColor = True
+        Me.btno.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte), True)
+        Me.btno.Location = New System.Drawing.Point(206, 313)
+        Me.btno.Name = "btno"
+        Me.btno.Size = New System.Drawing.Size(62, 46)
+        Me.btno.TabIndex = 12
+        Me.btno.Text = "00"
+        Me.btno.UseVisualStyleBackColor = True
         '
         'btn0
         '
@@ -255,7 +256,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnmult)
         Me.Controls.Add(Me.btnminus)
         Me.Controls.Add(Me.btnplus)
-        Me.Controls.Add(Me.btn00)
+        Me.Controls.Add(Me.btno)
         Me.Controls.Add(Me.btn0)
         Me.Controls.Add(Me.btnp)
         Me.Controls.Add(Me.btn9)
@@ -285,7 +286,7 @@ Partial Class Form1
     Friend WithEvents btn9 As Button
     Friend WithEvents btn8 As Button
     Friend WithEvents btn7 As Button
-    Friend WithEvents btn00 As Button
+    Friend WithEvents btno As Button
     Friend WithEvents btn0 As Button
     Friend WithEvents btnp As Button
     Friend WithEvents btnminus As Button
